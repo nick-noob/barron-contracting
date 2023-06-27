@@ -15,14 +15,14 @@ btn.addEventListener('click', navToggle);
 function onTabClick(e) {
     // Deactivate all tabs
     tabs.forEach((tab => {
-        tab.children[0].classList.remove("border-b-4", "border-softRed", "md:border-b-0");
+        tab.children[0].classList.remove("border-b-4", "border-grayishBlue", "md:border-b-0");
     }));
 
     // Hide all panels
     panels.forEach((panel) => panel.classList.add("hidden"));
 
     // Activate clicked tab and panel based on data target
-    e.target.classList.add("border-b-4", "border-softRed");
+    e.target.classList.add("border-b-4", "border-grayishBlue");
 
     const classString = e.target.getAttribute('data-target');
 
