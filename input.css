@@ -39,8 +39,15 @@
 
 
 .ficon:hover {
-  filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg) brightness(101%) contrast(96%);
-  }
+  filter: brightness(0) invert(1);
+}
+
+.ficon-gray:hover {
+  filter: invert(65%) sepia(9%) saturate(356%) hue-rotate(191deg) brightness(90%) contrast(87%);
+}
+
+
+
 
 /* Hamburger Menu */
 
