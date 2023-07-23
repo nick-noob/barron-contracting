@@ -35,9 +35,9 @@ function navToggle() {
     menu.classList.toggle("hidden");
 
     if(menu.classList.contains("flex")) {
-        logo.setAttribute("src", "images/barron-bracket-logo-footer.svg");
+        logo.setAttribute("src", "images/new-construction-white.svg");
     } else {
-        logo.setAttribute("src", "images/barron-bracket-logo-header.svg");
+        logo.setAttribute("src", "images/new construction.svg");
     }
 }
 
@@ -56,7 +56,7 @@ menuLinks.forEach((link) => {
             menu.classList.remove("flex");
             menu.classList.add("hidden");
             btn.classList.remove("open");
-            logo.setAttribute("src", "images/barron-bracket-logo-header.svg");
+            logo.setAttribute("src", "images/new construction.svg");
         }, 750);
     });
 });
