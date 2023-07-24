@@ -37,7 +37,7 @@ function navToggle() {
     if(menu.classList.contains("flex")) {
         logo.setAttribute("src", "images/new-construction-white.svg");
     } else {
-        logo.setAttribute("src", "images/new construction.svg");
+        logo.setAttribute("src", "images/new-construction-with-lic.svg");
     }
 }
 
@@ -56,7 +56,7 @@ menuLinks.forEach((link) => {
             menu.classList.remove("flex");
             menu.classList.add("hidden");
             btn.classList.remove("open");
-            logo.setAttribute("src", "images/new construction.svg");
+            logo.setAttribute("src", "images/new-construction-with-lic.svg");
         }, 750);
     });
 });
